@@ -3,9 +3,7 @@ Pytorch implementation of "An Unsupervised Multiple-Task and Multiple-Teacher Mo
 
 # Datasets
 https://www.clips.uantwerpen.be/conll2002/ner/
-
 https://www.clips.uantwerpen.be/conll2003/ner/
-
 https://elisa-ie.github.io/wikiann/
 
 # Requirements
