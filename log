@@ -1,0 +1,73 @@
+=========================TRAIN AT EPOCH=1=========================
+STEP: 0	LOSS=2.47619485855		time: 0.051241644223531085
+STEP: 100	LOSS=0.61194381856		time: 0.2432360092798869
+STEP: 200	LOSS=0.38963340141		time: 0.42918662627538046
+STEP: 300	LOSS=0.28796157627		time: 0.6211962978045146
+STEP: 400	LOSS=0.23317083002		time: 0.8093102137247722
+=========================DEV AT EPOCH=1===========================
+============Eval Recognizer by Conlleval:============
+PRE=67.12189		REC=76.79571		F1=71.63367
+Best MODEL UPDATE FROM -inf to 71.63367413530563
+Best Valid F1: EPOCH_NUM=1	F1_MAX=71.63367413530563
+Best MODEL SAVED in ../checkpoints/2022-05-21 22_02_08/best_recognizer.pt
+=========================TEST AT EPOCH=1==========================
+============Eval Recognizer by Conlleval:============
+PRE=65.09756		REC=75.67338		F1=69.98820
+=========================TRAIN AT EPOCH=2=========================
+STEP: 0	LOSS=0.02615798265		time: 0.0354900598526001
+STEP: 100	LOSS=0.04824170809		time: 0.22677579720815022
+STEP: 200	LOSS=0.04455496887		time: 0.4166021982828776
+STEP: 300	LOSS=0.0427381026		time: 0.610071329275767
+STEP: 400	LOSS=0.04209308596		time: 0.8020594596862793
+=========================DEV AT EPOCH=2===========================
+============Eval Recognizer by Conlleval:============
+PRE=68.15328		REC=73.41418		F1=70.68598
+Best Valid F1: EPOCH_NUM=1	F1_MAX=71.63367413530563
+Best MODEL SAVED in ../checkpoints/2022-05-21 22_02_08/best_recognizer.pt
+=========================TEST AT EPOCH=2==========================
+============Eval Recognizer by Conlleval:============
+PRE=67.44066		REC=74.11398		F1=70.62002
+=========================TRAIN AT EPOCH=3=========================
+STEP: 0	LOSS=0.02585237846		time: 0.03427682320276896
+STEP: 100	LOSS=0.02989413393		time: 0.22677446603775026
+STEP: 200	LOSS=0.02706071169		time: 0.41609930992126465
+STEP: 300	LOSS=0.02633669655		time: 0.6058531602223715
+STEP: 400	LOSS=0.02696006612		time: 0.7968822797139485
+=========================DEV AT EPOCH=3===========================
+============Eval Recognizer by Conlleval:============
+PRE=69.14938		REC=77.72854		F1=73.18841
+Best MODEL UPDATE FROM 71.63367413530563 to 73.18840579710144
+Best Valid F1: EPOCH_NUM=3	F1_MAX=73.18840579710144
+Best MODEL SAVED in ../checkpoints/2022-05-21 22_02_08/best_recognizer.pt
+=========================TEST AT EPOCH=3==========================
+============Eval Recognizer by Conlleval:============
+PRE=68.68938		REC=78.31018		F1=73.18495
+=========================TRAIN AT EPOCH=4=========================
+STEP: 0	LOSS=0.00371691515		time: 0.03300612767537435
+STEP: 100	LOSS=0.02012459502		time: 0.22274587551752725
+STEP: 200	LOSS=0.01873534614		time: 0.4130683104197184
+STEP: 300	LOSS=0.01804120355		time: 0.6071039756139119
+STEP: 400	LOSS=0.01861718406		time: 0.7990962624549866
+=========================DEV AT EPOCH=4===========================
+============Eval Recognizer by Conlleval:============
+PRE=70.11420		REC=75.88619		F1=72.88610
+Best Valid F1: EPOCH_NUM=3	F1_MAX=73.18840579710144
+Best MODEL SAVED in ../checkpoints/2022-05-21 22_02_08/best_recognizer.pt
+=========================TEST AT EPOCH=4==========================
+============Eval Recognizer by Conlleval:============
+PRE=70.41160		REC=77.11936		F1=73.61299
+=========================TRAIN AT EPOCH=5=========================
+STEP: 0	LOSS=0.00257548387		time: 0.03018555243810018
+STEP: 100	LOSS=0.01650035558		time: 0.21840983231862385
+STEP: 200	LOSS=0.01493306535		time: 0.4072717865308126
+STEP: 300	LOSS=0.0147687235		time: 0.6034731944402059
+STEP: 400	LOSS=0.01445978833		time: 0.7946957945823669
+=========================DEV AT EPOCH=5===========================
+============Eval Recognizer by Conlleval:============
+PRE=72.44146		REC=77.91511		F1=75.07865
+Best MODEL UPDATE FROM 73.18840579710144 to 75.07865168539325
+Best Valid F1: EPOCH_NUM=5	F1_MAX=75.07865168539325
+Best MODEL SAVED in ../checkpoints/2022-05-21 22_02_08/best_recognizer.pt
+=========================TEST AT EPOCH=5==========================
+============Eval Recognizer by Conlleval:============
+PRE=72.46453		REC=78.19677		F1=75.22160

@@ -1,0 +1,9 @@
+batch_size = 32
+n_epochs = 5
+lr = 1e-05
+loss_alpha = 1
+LEN_ALL_TAGS = 10
+HIDDEN_DIM = 768
+weight_loss = False
+tgt_lang = es
+trainer_name = Recognizer
